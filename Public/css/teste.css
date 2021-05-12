@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+header {
+    max-height: 170px;
+    background: #fff;
+}
+
+input{
+    background: #a5a5a5 !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+a{
+    color: #fff !important;
+}
+
+.nav_menu_topo {
+    background: rgb(27 27 27);
+}
+
+.logo-container {
+    padding: 5% 25%;
+    height: auto;
+}
+
+.container_corpo {
+    background: rgb(21 20 20);
+    height: 80px;
+    margin-top: -4px;;
+  
+}
+.base_triangulo{
+
+    background: rgb(27 27 27);
+    padding: 25px;
+}
+
+.img_triangulo_branco{
+    position: absolute;
+    width: 97px;
+    top: 50px;
+    max-height: 100px;
+    margin-left: -25px;
+}
+.img_triangulo_preto{
+    position: absolute;
+    width: 99px;
+    top: 48px;
+    max-height: 100px;
+    margin-left: -25px;   
+    transform: rotate( 1980deg);
+}
+
+.form-control{
+    background: rgb(30 30 30) !important;
+    margin-left: -50px;
+}
+
+.content_pesquisa {
+    height: 39px;
+    background: rgb(27 27 27);
+    display: flex;
+}
+
+.img_pesquisa{
+    width: 150px;
+    height: auto;
+    margin-left: -67px;
+
+}
+
+.content_atendimento{
+    display: flex;
+}
+
+.img_atendimento{
+    width: 20px;
+}
+
+.content_minhaConta{
+    display: flex;
+}
+
+.img_minhaConta{
+    width: 20px;
+}
+
+.img_logo{
+    width: 200px;
+    height: auto;
+}
+.menu-hamburgue{
+    width: 19px;
+    margin-left: -126px;
+    margin-top: 44px;
+}
+
+.img-cinza{
+    width: 81px;
+    margin-top: 0px;
+    margin-left: -87px;
+
+}
+.span{
+    margin-left: -110px;
+    color: #fff !important;
+}
+
+.som{
+    width: 40px;
+    margin-left: -202px;
+    margin-top: 24px;
+}
+
+.span2{
+    margin-left: 6px;
+    vertical-align: bottom;
+    color: #fff !important;
+}
+.farol{
+    width: 40px;
+    margin-left: -201px;
+    margin-top: 24px;
+}
+.acess-int{
+    width: 36px;
+    margin-left: -178px;
+    margin-top: 27px;
+}
+.acess-ex{
+    width: 43px;
+    margin-left: -135px;
+    margin-top: 28px;
+}
+
+.Vest{
+    width: 48px;
+    margin-left: -90px;
+    margin-top: 23px;
+}
+.infantil{
+    width: 61px;
+    margin-left: -117px;
+    margin-top: 28px;
+}
+.carrinho-compra{
+    width: 182px;
+    margin-left: -185px;
+    margin-top: -103px;
+}
+.fim{
+    width: 129%;
+    height: 80px;
+    background: #ffff;
+    margin-left: -90px;
+    margin-top: 4px;
+}
+.Banner{
+    width: 121%;
+    margin-top: -80px;
+}
+
+.branco1{
+    width: 315px;
+    transform: rotate( 
+2340deg
+ );
+    margin-left: 26px;
+    margin-top: 113px;
+}
+.branco2{
+    width: 298px;
+    transform: rotate( 
+2070deg
+ );
+    margin-left: -2060px;
+    margin-top: 99px;
+}
+
+
