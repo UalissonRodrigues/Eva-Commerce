@@ -1,4 +1,5 @@
 
+/* Começo da  Header*/
 body {
     margin: 0;
 }
@@ -23,7 +24,6 @@ body {
     background: rgb(27 27 27);
     display: flex;
     justify-content: center;
-    /* margin-right: 8%; */
     margin-left: -47%;
 }
 .form-control{
@@ -150,6 +150,11 @@ a{
     margin-left: -85px;
     margin-top: 4px;
 }
+/* Final da Header*/
+
+/********************************************************************************************************************/
+
+/* Começo da  Carrosel*/
 .Banner{
     width: 120%;
     margin-top: -80px;
@@ -180,17 +185,14 @@ a{
         margin-left: 0px;;
     }
 }
-.banner-row{
-    align-content: center;
-    border: #a5a5a5;
-    margin-top: -84px;;
-}
+/* Final do  Carrosel*/
 
+/********************************************************************************************************************/
+
+/* Começo do  icon*/
 .icon{
     margin-top: -5%;
-
 }
-
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem;
@@ -198,7 +200,6 @@ a{
     align-items: center;
     justify-content: center;
 }
-
 .ent {
     width: 35px;
 }
@@ -215,12 +216,28 @@ a{
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* Final do  icon*/
+
+/********************************************************************************************************************/
+
+/* Começo do  Banner Row*/
+.banner-row{
+    align-content: center;
+    border: #a5a5a5;
+    margin-top: -84px;;
+}
 .banner{
     margin-top: 15px;
 }
 .mini{
     width: 100%;
 }
+/* Final do  Banner Row*/
+
+/********************************************************************************************************************/
+
+/* Começo dos Mais Vendidos*/
 .vendidos{
     margin-top: 25px;
 }
