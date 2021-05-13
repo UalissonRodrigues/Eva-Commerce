@@ -1,96 +1,88 @@
+
 body {
     margin: 0;
 }
 
-header {
-    max-height: 170px;
-    background: #fff;
+.container-row{
+    width: 101%;
 }
-
-input{
-    background: #a5a5a5 !important;
-    color: #fff !important;
-    border: 0 !important;
-}
-
-a{
-    color: #fff !important;
-}
-
-.nav_menu_topo {
-    background: rgb(27 27 27);
-}
-
 .logo-container {
-    padding: 5% 25%;
+    padding: 0% 30%;
     height: auto;
-}
-
-.container_corpo {
-    background: rgb(21 20 20);
-    height: 80px;
-    margin-top: -4px;;
-  
-}
-.base_triangulo{
-
-    background: rgb(27 27 27);
-    padding: 25px;
 }
 
 .img_triangulo_branco{
     position: absolute;
-    width: 97px;
-    top: 50px;
-    max-height: 100px;
-    margin-left: -25px;
+    width: 90px;
+    max-height: 90px;
+    margin-left: -182px;
+    transform: rotate( 2160deg);
 }
-.img_triangulo_preto{
-    position: absolute;
-    width: 99px;
-    top: 48px;
-    max-height: 100px;
-    margin-left: -25px;   
-    transform: rotate( 1980deg);
+.content_pesquisa {
+    height: 90px;
+    background: rgb(27 27 27);
+    display: flex;
+    justify-content: center;
+    /* margin-right: 8%; */
+    margin-left: -47%;
 }
-
 .form-control{
     background: rgb(30 30 30) !important;
     margin-left: -50px;
 }
 
-.content_pesquisa {
-    height: 39px;
-    background: rgb(27 27 27);
-    display: flex;
-}
-
 .img_pesquisa{
-    width: 150px;
+    width: 10%;
     height: auto;
-    margin-left: -67px;
-
 }
-
 .content_atendimento{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 43px;
 }
 
 .img_atendimento{
-    width: 20px;
+    width: 10%;
+    height: auto;
 }
 
 .content_minhaConta{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 200px;
 }
 
 .img_minhaConta{
     width: 20px;
 }
+input{
+    background: #a5a5a5 !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+a{
+    color: #fff !important;
+}
 
-.img_logo{
-    width: 200px;
-    height: auto;
+ @media (max-width: 600px){
+     .content_pesquisa{
+         max-width: 600px;
+         padding: 0;
+     }
+ }
+
+ @media (max-width: 600px){
+    .img_triangulo_branco{
+        margin-left: -34px;
+    }
+}
+
+.container_corpo{
+    width: 100%;
+    height: 84px;
+    background: rgb(27 27 27);
 }
 .menu-hamburgue{
     width: 19px;
@@ -152,14 +144,14 @@ a{
     margin-top: -103px;
 }
 .fim{
-    width: 129%;
+    width: 127%;
     height: 80px;
     background: #ffff;
-    margin-left: -90px;
+    margin-left: -85px;
     margin-top: 4px;
 }
 .Banner{
-    width: 121%;
+    width: 120%;
     margin-top: -80px;
 }
 
@@ -176,8 +168,40 @@ a{
     transform: rotate( 
 2070deg
  );
-    margin-left: -2060px;
+    margin-left: -2063px;
     margin-top: 99px;
 }
 
+.banner-row{
+    align-content: center;
+    border: #a5a5a5;
+    margin-top: -84px;;
+}
+
+.Entrega{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 480px;
+}
+
+.cartao{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.seguranca{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.troca{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
 
