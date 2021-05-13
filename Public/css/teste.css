@@ -2,268 +2,316 @@
 /* Começo da  Header*/
 body {
     margin: 0;
+    width: 100%;
 }
 
-.container-row{
-    width: 101%;
-}
-.logo-container {
-    padding: 0% 30%;
-    height: auto;
+img{
+    max-width: 100%;
 }
 
-.img_triangulo_branco{
-    position: absolute;
-    width: 90px;
-    max-height: 90px;
-    margin-left: -182px;
-    transform: rotate( 2160deg);
-}
-.content_pesquisa {
-    height: 90px;
-    background: rgb(27 27 27);
-    display: flex;
-    justify-content: center;
-    margin-left: -47%;
-}
-.form-control{
-    background: rgb(30 30 30) !important;
-    margin-left: -50px;
+@media (max-width: 1200px){
+    .menu_desktop{
+        display: none;
+    }
+
+    .menu_mobile{
+        display: block;
+    }
+
+    .barra_branca{
+        display: none;
+    }
+
+    .container_corpo{
+        display: none;
+    }
+
+    .content_icon_mobile{
+        padding: 10px;
+    }
+
+    .logo-container_mobile{
+        max-width: 200px;
+    }
+
+
 }
 
-.img_pesquisa{
-    width: 10%;
-    height: auto;
-}
-.content_atendimento{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 43px;
-}
 
-.img_atendimento{
-    width: 10%;
-    height: auto;
-}
+@media (min-width: 1200px){
+    .menu_desktop{
+        display: block;
+    }
 
-.content_minhaConta{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 200px;
-}
+    .menu_mobile{
+        display: none;
+    }
 
-.img_minhaConta{
-    width: 20px;
-}
-input{
-    background: #a5a5a5 !important;
-    color: #fff !important;
-    border: 0 !important;
-}
-a{
-    color: #fff !important;
-}
-
- @media (max-width: 600px){
-     .content_pesquisa{
-         max-width: 600px;
-         padding: 0;
-     }
- }
-
- @media (max-width: 600px){
+    .container-row{
+        width: 101%;
+    }
+    .logo-container {
+        padding: 0% 30%;
+        height: auto;
+    }
+    
     .img_triangulo_branco{
-        margin-left: -34px;
+        position: absolute;
+        width: 90px;
+        max-height: 90px;
+        margin-left: -182px;
+        transform: rotate( 2160deg);
     }
-}
-
-.container_corpo{
-    width: 100%;
-    height: 84px;
-    background: rgb(27 27 27);
-}
-.menu-hamburgue{
-    width: 19px;
-    margin-left: -126px;
-    margin-top: 44px;
-}
-
-.img-cinza{
-    width: 81px;
-    margin-top: 0px;
-    margin-left: -87px;
-
-}
-.span{
-    margin-left: -110px;
-    color: #fff !important;
-}
-
-.som{
-    width: 40px;
-    margin-left: -202px;
-    margin-top: 24px;
-}
-
-.span2{
-    margin-left: 6px;
-    vertical-align: bottom;
-    color: #fff !important;
-}
-.farol{
-    width: 40px;
-    margin-left: -201px;
-    margin-top: 24px;
-}
-.acess-int{
-    width: 36px;
-    margin-left: -178px;
-    margin-top: 27px;
-}
-.acess-ex{
-    width: 43px;
-    margin-left: -135px;
-    margin-top: 28px;
-}
-
-.Vest{
-    width: 48px;
-    margin-left: -90px;
-    margin-top: 23px;
-}
-.infantil{
-    width: 61px;
-    margin-left: -117px;
-    margin-top: 28px;
-}
-.carrinho-compra{
-    width: 182px;
-    margin-left: -185px;
-    margin-top: -103px;
-}
-.fim{
-    width: 127%;
-    height: 80px;
-    background: #ffff;
-    margin-left: -85px;
-    margin-top: 4px;
-}
-/* Final da Header*/
-
-/********************************************************************************************************************/
-
-/* Começo da  Carrosel*/
-.Banner{
-    width: 120%;
-    margin-top: -80px;
-}
-
-.branco1{
-    width: 315px;
-    transform: rotate( 2340deg);
-    margin-left: 26px;
-    margin-top: 113px;
-}
-@media (max-width: 600px){
+    .content_pesquisa {
+        height: 90px;
+        background: rgb(27 27 27);
+        display: flex;
+        justify-content: center;
+        margin-left: -47%;
+    }
+    .form-control{
+        background: rgb(30 30 30) !important;
+        margin-left: -50px;
+    }
+    
+    .img_pesquisa{
+        width: 10%;
+        height: auto;
+    }
+    .content_atendimento{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 43px;
+    }
+    
+    .img_atendimento{
+        width: 10%;
+        height: auto;
+    }
+    
+    .content_minhaConta{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 200px;
+    }
+    
+    .img_minhaConta{
+        width: 20px;
+    }
+    input{
+        background: #a5a5a5 !important;
+        color: #fff !important;
+        border: 0 !important;
+    }
+    a{
+        color: #fff !important;
+    }
+    
+     @media (max-width: 600px){
+         .content_pesquisa{
+             max-width: 600px;
+             padding: 0;
+         }
+     }
+    
+     @media (max-width: 600px){
+        .img_triangulo_branco{
+            margin-left: -34px;
+        }
+    }
+    
+    .container_corpo{
+        width: 100%;
+        height: 84px;
+        background: rgb(27 27 27);
+    }
+    .menu-hamburgue{
+        width: 19px;
+        margin-left: -126px;
+        margin-top: 44px;
+    }
+    
+    .img-cinza{
+        width: 81px;
+        margin-top: 0px;
+        margin-left: -87px;
+    
+    }
+    .span{
+        margin-left: -110px;
+        color: #fff !important;
+    }
+    
+    .som{
+        width: 40px;
+        margin-left: -202px;
+        margin-top: 24px;
+    }
+    
+    .span2{
+        margin-left: 6px;
+        vertical-align: bottom;
+        color: #fff !important;
+    }
+    .farol{
+        width: 40px;
+        margin-left: -201px;
+        margin-top: 24px;
+    }
+    .acess-int{
+        width: 36px;
+        margin-left: -178px;
+        margin-top: 27px;
+    }
+    .acess-ex{
+        width: 43px;
+        margin-left: -135px;
+        margin-top: 28px;
+    }
+    
+    .Vest{
+        width: 48px;
+        margin-left: -90px;
+        margin-top: 23px;
+    }
+    .infantil{
+        width: 61px;
+        margin-left: -117px;
+        margin-top: 28px;
+    }
+    .carrinho-compra{
+        width: 182px;
+        margin-left: -185px;
+        margin-top: -103px;
+    }
+    .fim{
+        width: 127%;
+        height: 80px;
+        background: #ffff;
+        margin-left: -85px;
+        margin-top: 4px;
+    }
+    /* Final da Header*/
+    
+    /********************************************************************************************************************/
+    
+    /* Começo da  Carrosel*/
+    .Banner{
+        width: 120%;
+        margin-top: -80px;
+    }
+    
     .branco1{
-        width: 150px;
-        margin-left: 0px;;
+        width: 315px;
+        transform: rotate( 2340deg);
+        margin-left: -298px;
+        margin-top: 113px;
     }
-}
-.branco2{
-    width: 298px;
-    transform: rotate( 2070deg);
-    margin-left: -2063px;
-    margin-top: 99px;
-}
-
-@media (max-width: 600px){
-    .branco1{
-        width: 150px;
-        margin-left: 0px;;
+    @media (max-width: 600px){
+        .branco1{
+            width: 150px;
+            margin-left: 0px;;
+        }
     }
-}
-/* Final do  Carrosel*/
+    .branco2{
+        width: 298px;
+        transform: rotate( 2070deg);
+        margin-left: -2106px;;
+        margin-top: 99px;
+    }
+    
+    @media (max-width: 600px){
+        .branco1{
+            width: 150px;
+            margin-left: 0px;;
+        }
+    }
 
-/********************************************************************************************************************/
-
-/* Começo do  icon*/
-.icon{
-    margin-top: -5%;
-}
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.ent {
-    width: 35px;
-}
-.par {
-    width: 35px;
-}
-.seg {
-    width: 20px;
-}
-.tro {
-    width: 20px;
-}
-.nopadding{
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* Final do  icon*/
-
-/********************************************************************************************************************/
-
-/* Começo do  Banner Row*/
-.banner-row{
-    align-content: center;
-    border: #a5a5a5;
-    margin-top: -84px;;
-}
-.banner{
-    margin-top: 15px;
-}
-.mini{
-    width: 100%;
-}
-/* Final do  Banner Row*/
-
-/********************************************************************************************************************/
-
-/* Começo dos Mais Vendidos*/
-.vendidos{
-    margin-top: 25px;
-}
-
-.enfeite1{
-    width: 65%;
-}
-.enfeite2{
-    width: 65%;
-    margin-left: 62px;
-}
-
-.card-title-vend{
-    display: flex;
-    align-items: flex-end;
-    background: #e8e8e8;
-    height: 72px;
-
-}
-.card-body-vend{
-    background: #e8e8e8;
-}
-
-.vendidos{
-    border: 0 !important;
-}
-.card{
-    border: 0;
+    .carrosel{
+        width: 122%;
+    }
+    /* Final do  Carrosel*/
+    
+    /********************************************************************************************************************/
+    
+    /* Começo do  icon*/
+    .icon{
+        margin-top: -5%;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ent {
+        width: 35px;
+    }
+    .par {
+        width: 35px;
+    }
+    .seg {
+        width: 20px;
+    }
+    .tro {
+        width: 20px;
+    }
+    .nopadding{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    /* Final do  icon*/
+    
+    /********************************************************************************************************************/
+    
+    /* Começo do  Banner Row*/
+    .banner-row{
+        align-content: center;
+        border: #a5a5a5;
+        margin-top: -84px;;
+    }
+    .banner{
+        margin-top: 15px;
+    }
+    .mini{
+        width: 100%;
+    }
+    /* Final do  Banner Row*/
+    
+    /********************************************************************************************************************/
+    
+    /* Começo dos Mais Vendidos*/
+    .vendidos{
+        margin-top: 25px;
+    }
+    
+    .enfeite1{
+        width: 65%;
+    }
+    .enfeite2{
+        width: 65%;
+        margin-left: 62px;
+    }
+    
+    .card-title-vend{
+        display: flex;
+        align-items: flex-end;
+        background: #e8e8e8;
+        height: 72px;
+    
+    }
+    .card-body-vend{
+        background: #e8e8e8;
+    }
+    
+    .vendidos{
+        border: 0 !important;
+    }
+    .card{
+        border: 0;
+    }
 }

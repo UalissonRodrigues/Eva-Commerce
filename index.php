@@ -2,37 +2,60 @@
 include "./include/header.php"
 ?>
 <header class="header">
-    <div class="row">
+    <div class="row barra_branca">
         <div class="col-lg-12">
             <div style="width: 100%; height: 50px; background: #ffff;"></div>
         </div>
     </div>
-    <div class="row container-row">
-        <div class="col-lg-4">
-            <div class="logo-container"><img class="img-fluid img_logo" src="img/logo-header.svg" alt="Logo" /></div>
-        </div>
-        <div class="col-lg-2">
-            <img class="img_triangulo_branco" src="img/triangulo-branco.svg" />
-        </div>
-        <div class="col-lg-6">
-            <div class="content_pesquisa">
-                <input class="form-control mr-sm-2" type="search" placeholder="           Digite aqui o que voce procura.." aria-label="Search">
-                <img class="img_pesquisa" src="img/botao-lupa.svg" alt="Lupa" />
-                <div class="content_atendimento">
-                    <img class="img_atendimento" src="img/atendimento.svg" alt="Lupa" />
-                    <a class="nav-link dropdown-toggle" href="#" id="atendimento" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Atendimento
-                    </a>
-                </div>
-                <div class="content_minhaConta">
-                    <img class="img_minhaConta" src="img/minha-conta.svg" alt="Lupa" />
-                    <a class="nav-link dropdown-toggle" href="#" id="minha_conta" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Minha conta
-                    </a>
+
+    <div class="menu_desktop">
+        <div class="row container-row">
+            <div class="col-lg-4">
+                <div class="logo-container"><img class="img-fluid img_logo" src="img/logo-header.svg" alt="Logo" /></div>
+            </div>
+            <div class="col-lg-2">
+                <img class="img_triangulo_branco" src="img/triangulo-branco.svg" />
+            </div>
+            <div class="col-lg-6">
+                <div class="content_pesquisa">
+                    <input class="form-control mr-sm-2" type="search" placeholder="           Digite aqui o que voce procura.." aria-label="Search">
+                    <img class="img_pesquisa" src="img/botao-lupa.svg" alt="Lupa" />
+                    <div class="content_atendimento">
+                        <img class="img_atendimento" src="img/atendimento.svg" alt="Lupa" />
+                        <a class="nav-link dropdown-toggle" href="#" id="atendimento" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Atendimento
+                        </a>
+                    </div>
+                    <div class="content_minhaConta">
+                        <img class="img_minhaConta" src="img/minha-conta.svg" alt="Lupa" />
+                        <a class="nav-link dropdown-toggle" href="#" id="minha_conta" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Minha conta
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="menu_mobile">
+        <div class="row navbar-toggler">
+            <div class="col-sm-2">
+                <div class="content_icon_mobile">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+            </div>
+
+
+            <div class="col-sm-2">
+                <h2>teste</h2>
+            </div>
+
+            <!-- <div class="col-sm-2">
+                <div class="logo-container_mobile"><img class="img-fluid" src="img/logo-header.svg" alt="Logo" /></div>
+            </div> -->
+        </div>
+    </div>
+
     <div class="container_corpo">
         <div class="row">
             <div class="col-lg-2">
@@ -76,8 +99,9 @@ include "./include/header.php"
         </div>
     </div>
 </header>
+
 <div class="container_carrosel">
-    <div class="row">
+    <div class="row carrosel">
         <div class="col-lg-10">
             <div style="width: 100%; height: 80px; background: #ffff;"></div>
             <img class="Banner" src="img/banner-principal-desk.jpg" />
