@@ -157,51 +157,96 @@ a{
 
 .branco1{
     width: 315px;
-    transform: rotate( 
-2340deg
- );
+    transform: rotate( 2340deg);
     margin-left: 26px;
     margin-top: 113px;
 }
+@media (max-width: 600px){
+    .branco1{
+        width: 150px;
+        margin-left: 0px;;
+    }
+}
 .branco2{
     width: 298px;
-    transform: rotate( 
-2070deg
- );
+    transform: rotate( 2070deg);
     margin-left: -2063px;
     margin-top: 99px;
 }
 
+@media (max-width: 600px){
+    .branco1{
+        width: 150px;
+        margin-left: 0px;;
+    }
+}
 .banner-row{
     align-content: center;
     border: #a5a5a5;
     margin-top: -84px;;
 }
 
-.Entrega{
-    width: 120px;
-    display: flex;
-    align-items: center;
-    margin-left: 480px;
+.icon{
+    margin-top: -5%;
+
 }
 
-.cartao{
-    width: 120px;
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    justify-content: center;
 }
 
-.seguranca{
-    width: 120px;
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
+.ent {
+    width: 35px;
 }
-.troca{
-    width: 120px;
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
+.par {
+    width: 35px;
+}
+.seg {
+    width: 20px;
+}
+.tro {
+    width: 20px;
+}
+.nopadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.banner{
+    margin-top: 15px;
+}
+.mini{
+    width: 100%;
+}
+.vendidos{
+    margin-top: 25px;
 }
 
+.enfeite1{
+    width: 65%;
+}
+.enfeite2{
+    width: 65%;
+    margin-left: 62px;
+}
+
+.card-title-vend{
+    display: flex;
+    align-items: flex-end;
+    background: #e8e8e8;
+    height: 72px;
+
+}
+.card-body-vend{
+    background: #e8e8e8;
+}
+
+.vendidos{
+    border: 0 !important;
+}
+.card{
+    border: 0;
+}
